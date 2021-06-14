@@ -8,7 +8,7 @@ from flask_pymongo import PyMongo
 
 app = Flask(__name__)
 
-app.config["MONGO_URI"] = "mongodb://localhost:27017/arthtask33"
+app.config["MONGO_URI"] = "mongodb://localhost:27017/arthtask38"
 mongo = PyMongo(app)
 
 @app.route("/")
